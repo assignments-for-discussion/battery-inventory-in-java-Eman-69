@@ -11,7 +11,7 @@ public class Main {
     CountsBySoH counts = new CountsBySoH();
     for(int i=0;i<presentCapacities.length;i++)
       {
-        int soh=100*(presentCapacities[i]/120));
+        int soh=100*(presentCapacities[i]/120);
         if(soh>80)
           counts.healthy++;
         else if(soh>62)
