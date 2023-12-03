@@ -14,7 +14,7 @@ public class Main {
         int soh=100*(presentCapacities[i]/120);
         if(soh>80)
           counts.healthy++;
-        else if(soh>62)
+        else if(soh>=62)
           counts.exchange++;
         else
           counts.failed++;
